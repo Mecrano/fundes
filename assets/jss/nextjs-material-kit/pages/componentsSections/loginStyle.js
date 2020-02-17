@@ -1,6 +1,6 @@
-import { container } from "assets/jss/nextjs-material-kit.js";
+import { container } from ".././assets/jss/nextjs-material-kit.js";
 
-import image from "assets/img/sign.jpg";
+import image from ".././assets/img/sign.jpg";
 
 const loginStyle = {
   section: {
