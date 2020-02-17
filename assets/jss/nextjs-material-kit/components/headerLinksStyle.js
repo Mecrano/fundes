@@ -1,6 +1,6 @@
 import { defaultFont } from "../../nextjs-material-kit.js";
 
-import tooltip from "../../assets/jss/nextjs-material-kit/tooltipsStyle.js";
+import tooltip from "../tooltipsStyle.js";
 
 const headerLinksStyle = theme => ({
   list: {

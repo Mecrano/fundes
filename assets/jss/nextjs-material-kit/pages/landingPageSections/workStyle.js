@@ -1,4 +1,4 @@
-import { title } from ".././assets/jss/nextjs-material-kit.js";
+import { title } from "../../../nextjs-material-kit.js";
 
 const workStyle = {
   section: {
