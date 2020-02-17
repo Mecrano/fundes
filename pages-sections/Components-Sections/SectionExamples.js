@@ -10,10 +10,10 @@ import GridContainer from "../../components/Grid/GridContainer.js";
 import GridItem from "../../components/Grid/GridItem.js";
 import Button from "../../components/CustomButtons/Button.js";
 
-import landing from ".././assets/img/landing.jpg";
-import profile from ".././assets/img/profile.jpg";
+import landing from "../../assets/img/landing.jpg";
+import profile from "../../assets/img/profile.jpg";
 
-import styles from ".././assets/jss/nextjs-material-kit/pages/componentsSections/exampleStyle.js";
+import styles from "../../assets/jss/nextjs-material-kit/pages/componentsSections/exampleStyle.js";
 
 const useStyles = makeStyles(styles);
 

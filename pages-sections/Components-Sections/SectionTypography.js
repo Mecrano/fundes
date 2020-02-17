@@ -16,9 +16,9 @@ import Primary from "../../components/Typography/Primary.js";
 import Muted from "../../components/Typography/Muted.js";
 import Quote from "../../components/Typography/Quote.js";
 
-import image from ".././assets/img/faces/avatar.jpg";
+import image from "../../assets/img/faces/avatar.jpg";
 
-import styles from ".././assets/jss/nextjs-material-kit/pages/componentsSections/typographyStyle.js";
+import styles from "../../assets/jss/nextjs-material-kit/pages/componentsSections/typographyStyle.js";
 
 const useStyles = makeStyles(styles);
 
