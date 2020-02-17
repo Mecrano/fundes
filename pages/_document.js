@@ -1,6 +1,8 @@
 import React from "react";
 import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheets } from "@material-ui/styles";
+import favicon from "../assets/img/favicon.png";
+import appleIcon from "../assets/img/apple-icon.png";
 
 class MyDocument extends Document {
   render() {
@@ -13,11 +15,11 @@ class MyDocument extends Document {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           <meta name="theme-color" content="#000000" />
-          <link rel="shortcut icon" href={require("../assets/img/favicon.png")} />
+          <link rel="shortcut icon" href={favicon} />
           <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href={require("../assets/img/apple-icon.png")}
+            href={appleIcon}
           />
           {/* Fonts and icons */}
           <link
