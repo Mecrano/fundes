@@ -3,7 +3,7 @@ import {
   dangerColor,
   roseColor,
   grayColor
-} from "../../assets/jss/nextjs-material-kit.js";
+} from "../nextjs-material-kit.js";
 
 const customCheckboxRadioSwitch = {
   checkRoot: {

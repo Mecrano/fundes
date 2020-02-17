@@ -12,7 +12,7 @@ import {
   dangerBoxShadow,
   roseColor,
   roseBoxShadow
-} from "../../assets/jss/nextjs-material-kit.js";
+} from "../../nextjs-material-kit.js";
 
 const customDropdownStyle = theme => ({
   popperClose: {
