@@ -1,20 +1,18 @@
 {
-  "name": "next-material-kit",
-  "version": "1.0.0",
-  "description": "NextJS Version of Material Kit React by Creative Tim (https://creative-tim.com)",
+  "name": "fundes",
+  "version": "0.0.1",
+  "description": "Fundación para el desarrollo social - FUNDES",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploy": "next build && next export -o docs",
-    "deployToGP": "next build && next export -o docs && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: regen site\" && git push origin master",
+    "deploy": "next build && next export -o docs && git checkout -- docs/CNAME && git checkout -- docs/.nojekyll && git add docs && git commit -m \"chore: regen site\" && git push origin master",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/nextjs-material-kit.git"
+    "url": "git+https://github.com/Mecrano/fundes"
   },
   "keywords": [
     "next",
@@ -26,9 +24,10 @@
     "material-design",
     "material-kit",
     "material-kit-react",
-    "next-material-kit"
+    "next-material-kit",
+    "fundes"
   ],
-  "author": "Creative Tim",
+  "author": "Creative Tim and Modified by Mecrano(Edwin Obando)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/creativetimofficial/nextjs-material-kit/issues"
