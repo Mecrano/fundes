@@ -21,7 +21,7 @@ import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 import ProductSection from "pages-sections/LandingPage-Sections/ProductSection.js";
 import TeamSection from "pages-sections/LandingPage-Sections/TeamSection.js";
 import WorkSection from "pages-sections/LandingPage-Sections/WorkSection.js";
-import backgroundImage from "assets/img/landing-bg.jpg"
+import backgroundImage from "../assets/img/landing-bg.jpg"
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
