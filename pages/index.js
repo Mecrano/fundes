@@ -3,6 +3,7 @@ import LandingPage from "./landing"
 
 export default class Index extends Component {
   render() {
-    return <LandingPage />;
+    //return <LandingPage />;
+    return 'under construction...'
   }
 }

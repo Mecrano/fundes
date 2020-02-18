@@ -107,7 +107,6 @@ nextjs-material-kit
 │   ├── _app.js
 │   ├── _document.js
 │   ├── _error.js
-│   ├── components.js
 │   ├── index.js
 │   ├── landingpage.js
 │   ├── loginpage.js
@@ -162,19 +161,6 @@ nextjs-material-kit
 │       ├── Success.js
 │       └── Warning.js
 └── pages-sections
-    ├── Components-Sections
-    │   ├── SectionBasics.js
-    │   ├── SectionCarousel.js
-    │   ├── SectionCompletedExamples.js
-    │   ├── SectionDownload.js
-    │   ├── SectionExamples.js
-    │   ├── SectionJavascript.js
-    │   ├── SectionLogin.js
-    │   ├── SectionNavbars.js
-    │   ├── SectionNotifications.js
-    │   ├── SectionPills.js
-    │   ├── SectionTabs.js
-    │   └── SectionTypography.js
     └── LandingPage-Sections
         ├── ProductSection.js
         ├── TeamSection.js
